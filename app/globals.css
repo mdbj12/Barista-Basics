@@ -10,7 +10,6 @@
 
 html {
   scroll-behavior: smooth;
-  color: black;
   background-image: url(../public/long-pour.jpg);
   background-size: cover;
 }
@@ -66,6 +65,51 @@ nav a {
   font-weight: 700;
 }
 
+.contact-dropdown:hover .contact-options {
+  display: block;
+  left: 93%;
+}
+
+/* styling for each a tag */
+.contact-options a {
+  display: block;
+  padding: 20px;
+}
+
+/* color when cursor is hovering over an a tag */
+.contact-options a:hover {
+  background-color: rgba(249, 187, 128, 0.5);
+  backdrop-filter: blur(12px);
+}
+
+@keyframes slideDown {
+  0% {
+      opacity: 0;
+      transform: translateY(-60px);
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.contact-btn {
+  font-family: 'Be Vietnam';
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 17px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.contact-options {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  animation: slideDown 300ms ease-in-out forwards;
+}
+
 .landing-page {
   min-height: 100vh;
   display: flex;
@@ -106,7 +150,7 @@ nav a {
   flex-direction: column;
 }
 
-.methods h2 {
+.methods h1 {
   margin-top: 20vh;
   font-family: 'Bebas Nueve';
   font-size: 45px;

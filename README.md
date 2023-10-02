@@ -26,6 +26,7 @@ My stretch goal for this project is to implement a 3JS object into the webpage t
 
 - Closing notes;
 That's all from me!
+PSA: These are my thoughts and methodolgies on making coffee! There is no ONE RIGHT WAY, and I brew coffee to my own personal palete! Please feel free to create your own method catering to your taste by using my information as a baseline!
 I started developing this web app on 9/29/23, this is the second rendition of the app (first build failed)
 Track my progress through git!
 I hope you take either coffee knowledge or even maybe design examples away from this experience.

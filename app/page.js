@@ -1,4 +1,6 @@
 import Navigation from "./Navigation"
+import Brewing from "./Brewing"
+import Link from "next/link"
 
 export default function Homepage() {
 
@@ -13,9 +15,7 @@ export default function Homepage() {
         <p>With over 4 years of experience as a barista, we will be teaching you everything from basics to the tiny nuances of coffee.</p>
         <p>Because for us, coffee is more than just a simple pleasure.</p>
       </div>
-      <div className="methods" id="methods">
-        <h2>Brew Methods</h2>
-      </div>
+      <Brewing />
     </main>
   )
 }
