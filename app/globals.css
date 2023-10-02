@@ -8,6 +8,15 @@
   src: url(../public/BeVietnamPro-Variable.ttf);
 }
 
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -28,6 +37,7 @@ body::-webkit-scrollbar {
   width: 100vw;
   display: flex;
   justify-content: center;
+  animation: fade-in 2s forwards;
 }
 
 main {
@@ -110,6 +120,38 @@ nav a {
   animation: slideDown 300ms ease-in-out forwards;
 }
 
+.brewing-dropdown:hover .brewing-options {
+  display: block;
+  left: 1.5%;
+}
+
+.brew-option {
+  display: block;
+  padding: 20px;
+}
+
+.brew-option:hover {
+  background-color: rgba(249, 187, 128, 0.5);
+  backdrop-filter: blur(12px);
+}
+
+.brewing-btn {
+  font-family: 'Be Vietnam';
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 17px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.brewing-options {
+  display: none;
+  position: absolute;
+  z-index: 2;
+  animation: slideDown 300ms ease-in-out forwards;
+}
+
 .landing-page {
   min-height: 100vh;
   display: flex;
@@ -156,4 +198,63 @@ nav a {
   font-size: 45px;
   color: #f9bb80;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.methods button {
+  background: none;
+  display: block;
+  border: none;
+  padding: 0;
+}
+
+@keyframes flipY {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+.methods button:hover {
+  animation: flipY 0.75s linear;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24vh;
+  justify-content: center;
+}
+
+.brew-method p {
+  text-align: center;
+  font-family: 'Be Vietnam';
+  font-weight: 700;
+  color: black;
+}
+
+.coffee-type {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-size: 50px;
+  color: #f9bb80;
+  font-family: 'Bebas Nueve';
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+.intro-text {
+  font-family: 'Be Vietnam';
+  font-weight: 700;
+  font-size: 25px;
+  color: black;
+  margin-left: 50px;
+}
+
+.item-desc {
+  font-family: 'Be Vietnam';
+  max-width: 40%;
+  margin-left: 50px;
 }

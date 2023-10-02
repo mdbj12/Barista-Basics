@@ -3,8 +3,14 @@ import Link from "next/link"
 export default function Navigation() {
     return (
         <nav>
-            <div>
-                <a href="#methods" draggable="false">BREW</a>
+            <div className="brewing-dropdown">
+                <Link href='#methods'>
+                    <button className="brewing-btn">BREWING</button>
+                </Link>
+                <div className="brewing-options">
+                    <Link href='/drip' draggable='false' className="brew-option">DRIP</Link>
+                    <Link href='/moka' draggable='false' className="brew-option">MOKA POT</Link>
+                </div>
             </div>
             <div>
                 <Link href="/" draggable="false">
