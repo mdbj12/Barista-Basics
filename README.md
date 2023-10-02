@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Welcome to Barista Basics!
 
-## Getting Started
+Here, I will teach you how to brew coffee using several different methods.
+These methods will all be ways you can make at home using equipment a majority of people already own or use.
+Learning from this page will, ideally, amplify the way you make coffee at home and help you develop a deeper palate and understanding of coffee.
 
-First, run the development server:
+- A little about me;
+I am a Barista based in NYC and I love to help people learn more about coffee. 
+To me, coffee is more than just a morning pick me up, and I hope after reading through this webpage, you will have created a deeper connection to your mornings.
+Having worked as a barista for more than 4 years now and now as a web developer, on my days away from work, I develop my coffee and code skills together.
+I believe that a single good cup of coffee goes a longer way than mindlessly drinking coffee for its caffine.
+Coffee has a much deeper philosophy than the general public might know about.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+I hope from this experience, you have developed a deeper understanding and appreciation for the art that is coffee!
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Now a little about the code;
+This webpage is developed using NextJs, with its main focus being the design.
+I am slowly transitioning myself to be more front end / design focused and this will be my first project with that goal.
+This app came to fruition (pun intended, get it? coffee comes from a fruit hehe) when my girlfriend suggested I create an app that can teach people to make coffee.
+While going through this webpage, I plan to implement a simple yet effective strategy of design; Minimalism.
+By keeping the landing page minimal, it draws the users focus on the main goal, learning how to brew coffee.
+I plan to add animations using GSAP, videos and step by step instructions on how to brew coffee using different methods.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+My stretch goal for this project is to implement a 3JS object into the webpage to add more interactivity and also visually pleasing objects.
 
-## Learn More
+- Closing notes;
+That's all from me!
+I started developing this web app on 9/29/23, this is the second rendition of the app (first build failed)
+Track my progress through git!
+I hope you take either coffee knowledge or even maybe design examples away from this experience.
+Enjoy learning how to make coffee!
+URL(https://barista-basics.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+THANK YOU,
+- Michael Jeung

@@ -11,7 +11,7 @@ export default function Homepage() {
       <div className="about-section" id="about">
         <h2>Not your average class</h2>
         <p>With over 4 years of experience as a barista, we will be teaching you everything from basics to the tiny nuances of coffee.</p>
-        <p>Because for us, coffee is also more than just a simple pleasure.</p>
+        <p>Because for us, coffee is more than just a simple pleasure.</p>
       </div>
       <div className="methods" id="methods">
         <h2>Brew Methods</h2>
@@ -19,4 +19,3 @@ export default function Homepage() {
     </main>
   )
 }
-  
