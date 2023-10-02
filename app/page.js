@@ -1,12 +1,9 @@
-import Navigation from "./Navigation"
-import Brewing from "./Brewing"
-import Link from "next/link"
+import Brewing from "./components/Brewing"
 
 export default function Homepage() {
 
   return (
     <main className="homepage" id="homepage">
-      <Navigation />
       <div className="landing-page" id="home">
         <h1>Barista Basics</h1>
       </div>

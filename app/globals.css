@@ -10,8 +10,6 @@
 
 html {
   scroll-behavior: smooth;
-  background-image: url(../public/long-pour.jpg);
-  background-size: cover;
 }
 
 body {
@@ -33,6 +31,8 @@ body::-webkit-scrollbar {
 }
 
 main {
+  background-image: url(../public/long-pour.jpg);
+  background-size: cover;
   width: 75%;
   display: flex;
   flex-direction: column;

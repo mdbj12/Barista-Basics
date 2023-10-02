@@ -7,9 +7,9 @@ export default function Navigation() {
                 <a href="#methods" draggable="false">BREW</a>
             </div>
             <div>
-                <a href="#home" draggable="false">
+                <Link href="/" draggable="false">
                     <img src="coffee-icon.png" alt="icon" draggable="false" />
-                </a>
+                </Link>
             </div>
             <div className="contact-dropdown">
                 <button className="contact-btn">FIND ME</button>
