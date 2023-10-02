@@ -2,15 +2,15 @@ export default function Navigation() {
     return (
         <nav>
             <div>
-                <a href="#methods">BREW</a>
+                <a href="#methods" draggable="false">BREW</a>
             </div>
             <div>
-                <a href="#home">
-                    <img src="coffee-icon.png" alt="icon" />
+                <a href="#home" draggable="false">
+                    <img src="coffee-icon.png" alt="icon" draggable="false" />
                 </a>
             </div>
             <div>
-                <a href="Contact">CONTACT</a>
+                <a href="Contact" draggable="false">CONTACT</a>
             </div>
         </nav>
     )
