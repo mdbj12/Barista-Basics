@@ -1,11 +1,12 @@
 import Link from "next/link"
+import Image from "next/image"
 
 export default function Navigation() {
     return (
         <nav>
             <div>
                 <Link href="/" draggable="false">
-                    <img src="coffee-icon.png" alt="icon" draggable="false" />
+                    <Image src="/coffee-icon.png" alt="icon" draggable="false" height={60} width={60}/>
                 </Link>
             </div>
             <div className="brewing-dropdown">

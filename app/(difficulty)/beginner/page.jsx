@@ -21,7 +21,7 @@ export default function () {
                     <h2>Select your method!</h2>
                 </div>
                 <div className="beginner-brews">
-                    <Link href='drip' draggable='false'>Drip Coffee</Link>
+                    <Link href='/drip' draggable='false'>Drip Coffee</Link>
                 </div>
             </div>
         </div>
