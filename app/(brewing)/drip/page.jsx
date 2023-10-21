@@ -17,7 +17,7 @@ export default function DripCoffee() {
                             It involves hot water slowly passing through ground coffee beans, typically held in a paper or metal filter.
                             This gradual extraction process allows the water to absorb the flavors and aromas from the coffee grounds, resulting in a milder and smoother coffee compared to some other brewing methods.
                             Drip coffee is favored for its simplicity and consistency, making it a morning ritual for many.
-                            It's an excellent choice for those who prefer a clean, no-frills cup of coffee that can be enjoyed black or customized with cream and sugar to suit individual tastes.
+                            Its an excellent choice for those who prefer a clean, no-frills cup of coffee that can be enjoyed black or customized with cream and sugar to suit individual tastes.
                         </p>
                     </section>
                     <section className="image-container">
