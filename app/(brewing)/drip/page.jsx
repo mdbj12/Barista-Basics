@@ -44,7 +44,7 @@ export default function DripCoffee() {
                         </ol>
                     </section>
                     <section className="instruction-image">
-                        <img />
+                        {/* <img /> */}
                     </section>
                 </div>
             </div>
