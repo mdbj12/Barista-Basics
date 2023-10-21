@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function () {
+export default function Beginner() {
     return (
         <div className="beginner-intro">
             <div className="beginner-title">
