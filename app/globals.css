@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'Bebas Nueve';
-  src: url(../public/BebasNeue-Regular.otf);
+  src: url(../assets/BebasNeue-Regular.otf);
 }
 
 @font-face {
   font-family: 'Be Vietnam';
-  src: url(../public/BeVietnamPro-Variable.ttf);
+  src: url(../assets/BeVietnamPro-Variable.ttf);
 }
 
 @keyframes fade-in {
@@ -33,6 +33,16 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+main {
+  /* background-image: url(../public/long-pour.jpg);
+  background-size: cover; */
+  background-color: #fdf0d0;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .homepage {
   width: 100vw;
   display: flex;
@@ -40,30 +50,20 @@ body::-webkit-scrollbar {
   animation: fade-in 2s forwards;
 }
 
-main {
-  background-image: url(../public/long-pour.jpg);
-  background-size: cover;
-  width: 75%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
+/* navigation */
 nav {
-  position: fixed;
+  position: absolute;
   top: 16px;
   left: 48px;
-  right: 48px;
   padding: 16px 16px 16px 32px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   border-radius: 100px;
   z-index: 1;
 
-  background-color: rgba(255, 197, 143, 0.2);
+  background-color: #AA7C57;
   backdrop-filter: blur(6px);
 
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 
@@ -75,21 +75,39 @@ nav a {
   font-weight: 700;
 }
 
-.contact-dropdown:hover .contact-options {
-  display: block;
-  left: 93%;
+/* footer */
+footer {
+  padding: 16px 32px 16px 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  font-family: 'Be Vietnam';
+  font-weight: 700;
+  background-color: #d6dcc5;
 }
 
-/* styling for each a tag */
-.contact-options a {
-  display: block;
-  padding: 20px;
+footer h1 {
+  font-size: medium;
 }
 
-/* color when cursor is hovering over an a tag */
-.contact-options a:hover {
-  background-color: rgba(249, 187, 128, 0.5);
-  backdrop-filter: blur(12px);
+/* navigation drop down */
+.contact-options {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.learn-difficulty {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-misc-links {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
 }
 
 @keyframes slideDown {
@@ -103,26 +121,10 @@ nav a {
   }
 }
 
-.contact-btn {
-  font-family: 'Be Vietnam';
-  border: none;
-  cursor: pointer;
-  background-color: transparent;
-  font-size: 17px;
-  font-weight: 700;
-  margin-right: 10px;
-}
-
-.contact-options {
-  display: none;
-  position: absolute;
-  z-index: 2;
-  animation: slideDown 300ms ease-in-out forwards;
-}
-
 .brewing-dropdown:hover .brewing-options {
   display: block;
-  left: 1.5%;
+  left: 80%;
+  top: 18%;
 }
 
 .brew-option {
@@ -152,6 +154,7 @@ nav a {
   animation: slideDown 300ms ease-in-out forwards;
 }
 
+/* Homepage (page.js) */
 .landing-page {
   min-height: 100vh;
   display: flex;
@@ -161,6 +164,14 @@ nav a {
   color: #f9bb80;
   font-family: 'Bebas Nueve';
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+}
+
+/* around the h1 */
+.landing-page h1 {
+  padding: 75px;
+  border: 15px solid;
+  background-image: url('../public/latte-art.jpeg');
+  background-position: -90px -350px;
 }
 
 .about-section {
@@ -181,11 +192,12 @@ nav a {
 
 .about-section p {
   color: black;
-  font-family: 'be Vietnam';
+  font-family: 'Be Vietnam';
   font-weight: 500;
   font-size: 25px;
 }
 
+/* (misc)/brewing */
 .methods {
   min-height: 100vh;
   display: flex; 
@@ -221,6 +233,7 @@ nav a {
   animation: flipY 0.75s linear;
 }
 
+/* holds all of the brewing icon buttons */
 .button-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -235,26 +248,63 @@ nav a {
   color: black;
 }
 
-.coffee-type {
+/* contains all of the coffee content */
+.coffee-container {
   display: flex;
-  justify-content: center;
-  margin-top: 50px;
-  font-size: 50px;
-  color: #f9bb80;
-  font-family: 'Bebas Nueve';
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5)
+  flex-direction: column;
+  padding-top: 12vh;
+  align-items: center;
 }
 
-.intro-text {
+/* name of coffee */
+.coffee-type {
   font-family: 'Be Vietnam';
-  font-weight: 700;
   font-size: 25px;
-  color: black;
-  margin-left: 50px;
+  color: #f9bb80;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.item-desc {
+/* intro after name */
+.intro-text {
+  color: black;
   font-family: 'Be Vietnam';
-  max-width: 40%;
-  margin-left: 50px;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+/* contains intro content (content, introtext, coffeedesc, image) */
+.intro-content-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 7%;
+  background-color: #f9bb80;
+  border-radius: 50%;
+  margin: 5vh;
+}
+
+.content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.coffee-desc {
+  color: black;
+  font-family: 'Be Vietnam';
+  font-weight: 500;
+  font-size: 20px;
+  padding: 5vh;
+}
+
+/* coffee image classname */
+.coffee-image {
+  max-height: 45vh;
+  border-radius: 5%;
+}
+
+/* contains instructions(instructionintro, instructionsteps) */
+.instructions-container {
+  min-height: 75vh;
+  font-family: 'Be Vietnam';
 }

@@ -9,9 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "gsap": "^3.12.2",
+    "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "next": "latest"
+    "split-text": "^1.0.0",
+    "split-text-js": "^1.0.3"
   },
   "devDependencies": {
     "eslint": "latest",

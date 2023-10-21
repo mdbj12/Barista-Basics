@@ -17,6 +17,12 @@ export default function Brewing() {
                     </button>
                     <p>Moka Pot</p>
                 </Link>
+                <Link href='/pourover' className="brew-method">
+                    <button>
+                        <img src="pour-over-icon.png" alt="pour-over"/>
+                    </button>
+                    <p>Pour Over</p>
+                </Link>
             </div>
         </div>
     )

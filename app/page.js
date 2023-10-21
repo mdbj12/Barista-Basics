@@ -1,7 +1,6 @@
-import Brewing from "./components/Brewing"
+import Brewing from "./(misc)/brewing/page"
 
 export default function Homepage() {
-
   return (
     <main className="homepage" id="homepage">
       <div className="landing-page" id="home">
