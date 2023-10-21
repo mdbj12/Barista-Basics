@@ -9,7 +9,7 @@ export default function Beginner() {
             <div className="beginner-text">
                 <p>
                     Here you will learn how to brew multiple different coffee methods.
-                    What makes this 'beginner' is really determined by how much prior knowledge you have, but also based on the equipment you might have at home.
+                    What makes this, beginner, is really determined by how much prior knowledge you have, but also based on the equipment you might have at home.
                     I will be simplifying these methods into one concise and easy to follow directions.
                     The reasoning behind this is mainly due to the fact that coffee can get very intricate based on how much knowledge you have prior to this page.
                     Every little detail will affect your result; Especially the taste of your brew.
