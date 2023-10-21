@@ -300,6 +300,7 @@ footer h1 {
 /* coffee image classname */
 .coffee-image {
   max-height: 45vh;
+  width: auto;
   border-radius: 5%;
 }
 

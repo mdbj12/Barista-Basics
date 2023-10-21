@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function DripCoffee() {
     return (
         <div className="coffee-container">
@@ -19,7 +21,7 @@ export default function DripCoffee() {
                         </p>
                     </section>
                     <section className="image-container">
-                        <img src="drip-coffee-img.jpg" alt="drip-coffee" className="coffee-image"/>
+                        <Image src="/drip-coffee-img.jpg" alt="drip-coffee" className="coffee-image" height={500} width={500}/>
                     </section>
                 </div>
             </div>
