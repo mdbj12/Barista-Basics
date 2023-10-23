@@ -13,6 +13,8 @@ Coffee has a much deeper philosophy than the general public might know about.
 
 I hope from this experience, you have developed a deeper understanding and appreciation for the art that is coffee!
 
+<img width="1015" alt="wireframe" src="https://github.com/mdbj12/Barista-Basics/assets/84149349/6f66254c-0c79-41dd-bd31-e0f72cd92101">
+
 
 - Now a little about the code;
 This webpage is developed using NextJs, with its main focus being the design.
@@ -34,4 +36,5 @@ Enjoy learning how to make coffee!
 URL(https://barista-basics.vercel.app/)
 
 THANK YOU,
+
 - Michael Jeung
