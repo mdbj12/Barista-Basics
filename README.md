@@ -1,5 +1,7 @@
 Welcome to Barista Basics!
 
+<img width="951" alt="Screenshot 2023-10-23 at 2 45 34 PM" src="https://github.com/mdbj12/Barista-Basics/assets/84149349/78e88f62-c615-46c5-b1c5-b7dcc246eb26">
+
 Here, I will teach you how to brew coffee using several different methods.
 These methods will all be ways you can make at home using equipment a majority of people already own or use.
 Learning from this page will, ideally, amplify the way you make coffee at home and help you develop a deeper palate and understanding of coffee.
@@ -14,7 +16,6 @@ Coffee has a much deeper philosophy than the general public might know about.
 I hope from this experience, you have developed a deeper understanding and appreciation for the art that is coffee!
 
 <img width="1015" alt="wireframe" src="https://github.com/mdbj12/Barista-Basics/assets/84149349/6f66254c-0c79-41dd-bd31-e0f72cd92101">
-
 
 - Now a little about the code;
 This webpage is developed using NextJs, with its main focus being the design.
